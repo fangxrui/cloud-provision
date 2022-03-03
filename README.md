@@ -1,6 +1,6 @@
 # ☁️Cloud-provision
 ## Intro  
- Provisioning a new server from a cloud provider at a particular region, that is initialized with a specified virtual machine image, using the digitalocean api v2
+ Provisioning a new server from a cloud provider at a particular region, that is initialized with a specified virtual machine image, using the [DigitalOcean api v2](https://docs.digitalocean.com/reference/api/api-reference/)
 ## How to run
 `git clone` this repo
 
@@ -9,9 +9,9 @@
 Set your token (generate by DigitalOcean)
 ```
 # Mac/Linux
-export NCSU_DOTOKEN="xxx"
+export MY_DOTOKEN="xxx"
 # Windows
-setx NCSU_DOTOKEN xxx
+setx MY_DOTOKEN xxx
 ```
 
 Run the node program by
